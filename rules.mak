@@ -172,7 +172,7 @@ CFLAGS		:= -O2 -w -ansi -D_FORTIFY_SOURCE=2 -D_POSIX_SOURCE $(ENDIAN_FLAG) $(NBI
 #CFLAGS	:= -g $(ENDIAN_FLAG) $(NBIS_JASPER_FLAG) $(NBIS_PNG_FLAG) $(ARCH_FLAG)
 CDEFS		:=
 CCC		:= $(CC) $(CFLAGS) $(CDEFS)
-LDFLAGS	:= $(LDFLAGS) $(ARCH_FLAG) -lopenjpeg -lpng
+LDFLAGS	:= $(LDFLAGS) $(ARCH_FLAG) -lopenjpeg -lpng12
 M		:= -M
 #M		:= -MM
 #
